@@ -12,7 +12,7 @@ function Header() {
     <>
       <header className={style.header}>
         <Hamburger isOpen={isOpen} cullback={openMenu} />
-        <Navigation isOpen={isOpen} />
+        <Navigation isOpen={isOpen} cullback={openMenu} />
       </header>
     </>
   );

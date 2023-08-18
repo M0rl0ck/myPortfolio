@@ -2,14 +2,21 @@ import style from "./navigation.module.css";
 
 interface INavigation {
   isOpen: boolean;
+  cullback: () => void;
 }
 
-function Navigation({ isOpen }: INavigation) {
+function Navigation({ isOpen, cullback }: INavigation) {
+  const closeMenu = () => {
+    if (isOpen) {
+      cullback();
+    }
+  };
   return (
     <nav
       className={
         isOpen ? [style.navigation, style.active].join(" ") : style.navigation
       }
+      onClick={closeMenu}
     >
       <ul>
         <li>
