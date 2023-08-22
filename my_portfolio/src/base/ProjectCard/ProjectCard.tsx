@@ -4,13 +4,42 @@ import Skill from "../skill/Skill";
 
 interface IProjectCard {
   project: IProject;
+  openDescriptionIndex: number;
+  index: number;
+  setOpenDescriptionIndex: (n: number) => void;
 }
 
-function ProjectCard({ project }: IProjectCard) {
+function ProjectCard({
+  project,
+  openDescriptionIndex,
+  index,
+  setOpenDescriptionIndex,
+}: IProjectCard) {
   const { image, name, description, stack, git, deploy } = project;
+
+  const openDescription = () => {
+    if (openDescriptionIndex === index) {
+      setOpenDescriptionIndex(-1);
+    } else {
+      setOpenDescriptionIndex(index);
+    }
+  };
+
+  const stopProp = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+    e.stopPropagation();
+  };
+
   return (
-    <div className={style.cardContainer}>
-      <p className={style.description}>{description}</p>
+    <div className={style.cardContainer} onClick={openDescription}>
+      <p
+        className={
+          openDescriptionIndex === index
+            ? style.description + " " + style.openDescription
+            : style.description
+        }
+      >
+        {description}
+      </p>
       <div className={style.imgContainer}>
         <img src={image} />
       </div>
@@ -22,7 +51,7 @@ function ProjectCard({ project }: IProjectCard) {
           <Skill name={skill} key={index} />
         ))}
       </ul>
-      <div className={style.linkContainer}>
+      <div className={style.linkContainer} onClick={stopProp}>
         <a href={git}>Git</a>
         <a href={deploy}>Deploy</a>
       </div>
