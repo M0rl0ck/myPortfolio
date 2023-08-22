@@ -1,5 +1,4 @@
 import IProject from "../interfaces/IProject";
-import GemPuzzle from "../assets/GemPuzzle.jpg";
 
 const PROJECTS: IProject[] = [
   {
