@@ -1,0 +1,42 @@
+.oval {
+  position: absolute;
+  width: 480px;
+  height: 80px;
+  border: 1px solid darkgrey;
+  border-radius: 240px / 40px;
+  z-index: -1;
+}
+
+.ovalDekcoration {
+  position: absolute;
+}
+
+.firstOval {
+  top: 0;
+  left: 0;
+}
+
+.secondOval {
+  top: 34px;
+  left: 0;
+}
+
+.oval::after,
+.oval::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  width: 480px;
+  height: 80px;
+  border: 1px solid darkgrey;
+  border-radius: 240px / 40px;
+}
+
+.oval::after {
+  top: -12px;
+}
+.oval::before {
+  top: 10px;
+}

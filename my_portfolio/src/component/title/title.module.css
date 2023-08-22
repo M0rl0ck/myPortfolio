@@ -1,0 +1,39 @@
+.titleContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 100px;
+  gap: 20px;
+  z-index: 1;
+}
+
+.titlePhoto {
+  display: inline-block;
+  width: 500px;
+  aspect-ratio: 4 / 5;
+}
+
+.titlePhotoContainer {
+  position: relative;
+  background-color: #434343;
+}
+
+.titleHeader {
+  flex-grow: 1;
+}
+
+.titleHeader h1 {
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+.positionCircle {
+  bottom: 80px;
+  left: -70px;
+}
+
+.positionOval {
+  top: 120px;
+  left: -180px;
+}

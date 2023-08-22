@@ -1,0 +1,21 @@
+.education {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.education p {
+  margin-top: 10px;
+  font-size: 26px;
+}
+
+.education a {
+  color: antiquewhite;
+  transition: all 0.5s;
+}
+
+.education a:hover {
+  color: #f6ca95;
+  text-decoration: underline;
+  transition: all 0.5s;
+}
