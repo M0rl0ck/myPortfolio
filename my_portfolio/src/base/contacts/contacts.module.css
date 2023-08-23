@@ -1,0 +1,36 @@
+.contacts {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.contacts li {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.positionCircle {
+  bottom: 30px;
+  right: -110px;
+  z-index: -1;
+}
+
+.contacts span {
+  padding: 4px 10px;
+  background-color: #454545;
+  border-radius: 10px;
+}
+
+.contacts a {
+  display: inline-block;
+  border-bottom: 2px solid green;
+  transition: all 0.5s;
+}
+
+.contacts a:hover {
+  transform: scale(1.07);
+  transition: all 0.4s;
+}

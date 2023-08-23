@@ -36,4 +36,5 @@
 .positionOval {
   top: 120px;
   left: -180px;
+  z-index: -1;
 }

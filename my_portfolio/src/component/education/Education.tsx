@@ -1,3 +1,4 @@
+import OvalDekcoration from "../../base/decoration/oval/OvalDekcoration";
 import style from "./education.module.css";
 
 function Education() {
@@ -17,6 +18,7 @@ function Education() {
         {" => "}
         <a href="https://app.rs.school/certificate/rugf7yq4">Certificate</a>
       </p>
+      <OvalDekcoration position={style.positionOval} />
     </section>
   );
 }
