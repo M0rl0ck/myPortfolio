@@ -1,0 +1,9 @@
+.devider {
+  width: 100%;
+  border: 1px solid #434343;
+}
+
+.verticalDevider {
+  width: 0;
+  border: 1px solid #434343;
+}

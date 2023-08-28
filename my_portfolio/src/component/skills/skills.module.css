@@ -1,0 +1,7 @@
+.skills ul {
+  display: flex;
+  gap: 40px;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}

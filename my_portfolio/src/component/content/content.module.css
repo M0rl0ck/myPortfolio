@@ -1,0 +1,18 @@
+.main {
+  flex-grow: 1;
+  background: linear-gradient(to bottom right, #121212, #404040);
+}
+.container {
+  display: flex;
+  max-width: 1360px;
+  flex-direction: column;
+  gap: 80px;
+  margin: 0 auto;
+  padding: 0 10px 30px;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.container h2 {
+  font-size: 40px;
+}
