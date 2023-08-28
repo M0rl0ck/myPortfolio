@@ -1,18 +1,12 @@
-import { useState } from "react";
-import Hamburger from "../../base/hamburger/Hamburger";
 import style from "./header.module.css";
-import Navigation from "../../base/navigation/Navigation";
+import NavContacts from "../../base/navContacts/NavContacts";
 
 function Header() {
-  const [isOpen, setIsOpen] = useState(false);
-  const openMenu = () => {
-    setIsOpen(!isOpen);
-  };
   return (
     <>
       <header className={style.header}>
-        <Hamburger isOpen={isOpen} cullback={openMenu} />
-        <Navigation isOpen={isOpen} cullback={openMenu} />
+        <div>SergeySergeev</div>
+        <NavContacts />
       </header>
     </>
   );

@@ -1,9 +1,10 @@
 .header {
-  padding: 5px;
-  height: 80px;
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  gap: 5px;
-  background-color: black;
+  height: 80px;
+  padding: 5px;
+  font-size: 26px;
   color: aliceblue;
+  background-color: black;
 }
