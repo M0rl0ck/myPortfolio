@@ -13,7 +13,12 @@ function Contacts() {
           Phone: <span>+79281825723</span>
         </li>
         <li>
-          E-mail: <span>seriy17@yandex.ru</span>
+          E-mail:{" "}
+          <span>
+            <a href="mailto:someone@yoursite.com" target="_blank">
+              seriy17@yandex.ru
+            </a>
+          </span>
         </li>
         <li>
           Skype:{" "}
@@ -26,7 +31,7 @@ function Contacts() {
         <li>
           Discord:{" "}
           <span>
-            <a href=" https://discordapp.com/users/914233128330088478/">
+            <a href="https://discordapp.com/users/914233128330088478/">
               m0rl0ck
             </a>
           </span>
