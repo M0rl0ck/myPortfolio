@@ -9,14 +9,16 @@ function About() {
       <VerticalDevider />
       <div>
         <h2>About me:</h2>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ut
-        quisquam culpa beatae eligendi fugit ullam quos dolores. Corrupti
-        possimus soluta neque debitis corporis quo explicabo, provident maiores
-        amet velit? Et voluptatum quae quisquam minima non quibusdam
-        reprehenderit optio nesciunt! Est, saepe pariatur eligendi aut eveniet
-        dolores animi illum! Ab atque fugiat in nisi consequatur aut delectus
-        necessitatibus nesciunt et. Culpa, cupiditate saepe facere eligendi
-        autem molestiae maxime porro
+        <p>I am a Front-end developer.</p>
+        <p>
+          I have knowledge of Wepback, Typescript/Javascript, React, Redux, CSS
+          (SASS), NextJS.
+        </p>
+        <p>
+          I am looking forward to working in teams as well as individually. I am
+          not only willing to deepen my knowledge but I also want to apply them
+          to the real products.
+        </p>
       </div>
     </section>
   );
