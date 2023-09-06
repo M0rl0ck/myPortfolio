@@ -15,7 +15,7 @@ function Contacts() {
         <li>
           E-mail:{" "}
           <span>
-            <a href="mailto:someone@yoursite.com" target="_blank">
+            <a href="seriy17@yandex.ru" target="_blank">
               seriy17@yandex.ru
             </a>
           </span>
