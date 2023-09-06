@@ -1,5 +1,6 @@
 import Circle from "../../base/decoration/Circle/Circle";
 import OvalDekcoration from "../../base/decoration/oval/OvalDekcoration";
+import photo from "../../assets/photo.png";
 import style from "./title.module.css";
 
 function Title() {
@@ -14,7 +15,7 @@ function Title() {
         </div>
       </div>
       <div className={style.titlePhotoContainer}>
-        <img className={style.titlePhoto} src="#" alt="photo" />
+        <img className={style.titlePhoto} src={photo} alt="photo" />
         <Circle position={style.positionCircle} />
       </div>
     </div>

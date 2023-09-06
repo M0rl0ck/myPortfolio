@@ -9,9 +9,9 @@
 }
 
 .titlePhoto {
-  display: inline-block;
+  display: block;
   width: 500px;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: auto;
 }
 
 .titlePhotoContainer {
