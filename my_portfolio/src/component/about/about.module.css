@@ -7,3 +7,18 @@
 .about h2 {
   margin-bottom: 20px;
 }
+.about p {
+  padding: 5px;
+  position: relative;
+}
+.about p::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 16px;
+  left: -5px;
+  width: 5px;
+  height: 5px;
+  border: 1px solid #a4a4a4;
+  border-radius: 50%;
+}
