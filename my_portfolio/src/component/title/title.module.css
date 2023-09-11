@@ -110,3 +110,13 @@
     right: -90px;
   }
 }
+
+@media (max-width: 540px) {
+  .titleContainer {
+    font-size: 34px;
+  }
+  .titleHeader h1 {
+    padding-top: 10px;
+    font-size: 26px;
+  }
+}
