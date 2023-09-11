@@ -16,3 +16,25 @@
 .container h2 {
   font-size: 40px;
 }
+
+@media (max-width: 1120px) {
+  .container {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .container {
+    font-size: 16px;
+  }
+  .container h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    gap: 20px;
+    padding: 0 5px 30px;
+  }
+}

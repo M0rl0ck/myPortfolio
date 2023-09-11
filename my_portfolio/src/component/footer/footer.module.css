@@ -8,3 +8,9 @@
   color: aliceblue;
   background-color: black;
 }
+
+@media (max-width: 450px) {
+  .footer {
+    font-size: 18px;
+  }
+}

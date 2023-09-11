@@ -34,3 +34,9 @@
   transform: scale(1.07);
   transition: all 0.4s;
 }
+
+@media (max-width: 700px) {
+  .contacts {
+    max-width: 230px;
+  }
+}

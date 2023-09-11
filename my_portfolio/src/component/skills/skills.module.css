@@ -5,3 +5,9 @@
   flex-wrap: wrap;
   margin-top: 20px;
 }
+
+@media (max-width: 600px) {
+  .skills ul {
+    gap: 20px;
+  }
+}

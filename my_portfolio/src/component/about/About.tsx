@@ -8,7 +8,7 @@ function About() {
     <section className={style.about}>
       <Contacts />
       <VerticalDevider />
-      <div>
+      <div className={style.aboutText}>
         <h2>
           <FormattedMessage id="ABOUT" />
         </h2>

@@ -14,3 +14,10 @@
   transform: scale(1.1);
   transition: all 0.4s;
 }
+
+@media (max-width: 450px) {
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+}
