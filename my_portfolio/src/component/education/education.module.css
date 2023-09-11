@@ -31,3 +31,36 @@
   top: 70px;
   right: 400px;
 }
+
+@media (max-width: 1030px) {
+  .positionOval {
+    left: 590px;
+    right: auto;
+  }
+}
+
+@media (max-width: 770px) {
+  .education p {
+    margin-top: 12px;
+    font-size: 22px;
+  }
+  .education .specialist {
+    font-size: 18px;
+  }
+  .positionOval {
+    left: 500px;
+  }
+}
+
+@media (max-width: 660px) {
+  .education p {
+    margin-top: 8px;
+    font-size: 18px;
+  }
+  .education .specialist {
+    font-size: 16px;
+  }
+  .positionOval {
+    left: 500px;
+  }
+}

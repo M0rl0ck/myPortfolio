@@ -73,3 +73,17 @@
   padding: 6px;
   cursor: auto;
 }
+
+@media (max-width: 450px) {
+  .cardContainer {
+    max-width: 290px;
+    font-size: 18px;
+  }
+  .cardContainer img {
+    width: 288px;
+    height: 150px;
+  }
+  .imgContainer {
+    width: 288px;
+  }
+}
