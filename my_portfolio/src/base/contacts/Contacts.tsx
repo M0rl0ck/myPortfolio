@@ -1,10 +1,13 @@
+import { FormattedMessage } from "react-intl";
 import Circle from "../decoration/Circle/Circle";
 import style from "./contacts.module.css";
 
 function Contacts() {
   return (
     <div className={style.contacts}>
-      <h2>Contacts: </h2>
+      <h2>
+        <FormattedMessage id="CONTACTS" />
+      </h2>
       <ul>
         <li>
           Location: <span>Shakhty, Russia</span>

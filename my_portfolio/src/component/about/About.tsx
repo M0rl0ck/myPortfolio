@@ -1,6 +1,7 @@
 import style from "./about.module.css";
 import Contacts from "../../base/contacts/Contacts";
 import VerticalDevider from "../../base/devider/VerticalDevider";
+import { FormattedMessage } from "react-intl";
 
 function About() {
   return (
@@ -8,16 +9,18 @@ function About() {
       <Contacts />
       <VerticalDevider />
       <div>
-        <h2>About me:</h2>
-        <p>I am a Front-end developer.</p>
+        <h2>
+          <FormattedMessage id="ABOUT" />
+        </h2>
         <p>
-          I have knowledge of Wepback, Typescript/Javascript, React, Redux, CSS
-          (SASS), NextJS.
+          <FormattedMessage id="IM" /> Front-end developer.
         </p>
         <p>
-          I am looking forward to working in teams as well as individually. I am
-          not only willing to deepen my knowledge but I also want to apply them
-          to the real products.
+          <FormattedMessage id="ABOUT_KNOW" /> Wepback, Typescript/Javascript,
+          React, Redux, CSS (SASS), NextJS.
+        </p>
+        <p>
+          <FormattedMessage id="ABOUT_MESSAGE" />
         </p>
       </div>
     </section>
