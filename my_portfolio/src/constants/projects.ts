@@ -19,27 +19,26 @@ const PROJECTS: IProject[] = [
       "Songbird is a quiz app for recognizing birds by their voices.",
     stack: ["JavaScript", "SCSS", "Webpack", "Responsive UI", "SPA"],
     git: "https://github.com/M0rl0ck/m0rl0ck-JSFE2022Q3/tree/songbird",
-    deploy:
-      "https://64895e1190bf8e64ae3305cd--celadon-fairy-bfaa56.netlify.app/",
+    deploy: "https://celadon-fairy-bfaa56.netlify.app/",
   },
-  {
-    image:
-      "https://user-images.githubusercontent.com/95146343/262322865-c1af5503-5b10-4e21-88f3-9f61a1f33b1e.jpg",
-    name: "Async Race",
-    description:
-      "Async Race is a educational project as part of the task for RS School.",
-    stack: [
-      "TypeScript",
-      "SCSS",
-      "Webpack",
-      "Responsive UI",
-      "SPA",
-      "Rest API",
-      "JS Animations",
-    ],
-    git: "https://github.com/M0rl0ck/m0rl0ck-JSFE2022Q3/blob/async-race/README.md",
-    deploy: "https://m0rl0ck.github.io/m0rl0ck-JSFE2022Q3/async-race/",
-  },
+  // {
+  //   image:
+  //     "https://user-images.githubusercontent.com/95146343/262322865-c1af5503-5b10-4e21-88f3-9f61a1f33b1e.jpg",
+  //   name: "Async Race",
+  //   description:
+  //     "Async Race is a educational project as part of the task for RS School.",
+  //   stack: [
+  //     "TypeScript",
+  //     "SCSS",
+  //     "Webpack",
+  //     "Responsive UI",
+  //     "SPA",
+  //     "Rest API",
+  //     "JS Animations",
+  //   ],
+  //   git: "https://github.com/M0rl0ck/m0rl0ck-JSFE2022Q3/blob/async-race/README.md",
+  //   deploy: "https://m0rl0ck.github.io/m0rl0ck-JSFE2022Q3/async-race/",
+  // },
   {
     image:
       "https://user-images.githubusercontent.com/95146343/243565434-c717bf39-87cc-4fea-831d-e63929a03330.png",
@@ -69,6 +68,21 @@ const PROJECTS: IProject[] = [
     stack: ["TypeScript", "CSS Modules", "Next.js", "Redux - RTK + RTK Query"],
     git: "https://github.com/M0rl0ck/graphiql-app",
     deploy: "https://graphiql-party-team.vercel.app/",
+  },
+  {
+    image:
+      "https://private-user-images.githubusercontent.com/95146343/309213125-0ad0d718-2049-4cbc-b882-25313cfba6c0.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkyOTcwNjYsIm5iZiI6MTcwOTI5Njc2NiwicGF0aCI6Ii85NTE0NjM0My8zMDkyMTMxMjUtMGFkMGQ3MTgtMjA0OS00Y2JjLWI4ODItMjUzMTNjZmJhNmMwLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzAxVDEyMzkyNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVjNGU3NjViOWI4OWJlYzc3N2ExOWE0NDk2MGQxOWJmZTBkYWY1MTQwZDQ2MGMwMDVhNzgyNWY1YzAwYzgyNWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.5JjakKIvSwfhVupXkpC0kzs8ZD4_sfduFiBGHz8KVa4",
+    name: "Async Race",
+    description: "This application is a test task for the 'Kvartirka' company.",
+    stack: [
+      "TypeScript",
+      "CSS Modules",
+      "Next.js",
+      "Responsive UI",
+      "Rest API",
+    ],
+    git: "https://github.com/M0rl0ck/Test_task-Apartment",
+    deploy: "https://test-task-apartment.vercel.app/",
   },
 ];
 
