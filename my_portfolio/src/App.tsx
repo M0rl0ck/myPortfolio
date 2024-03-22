@@ -23,7 +23,7 @@ function App() {
   const messages = useGetMessage({ locale: lang });
   return (
     <IntlProvider locale={lang} messages={messages}>
-      <Header callbuck={changeLang} />
+      <Header callback={changeLang} />
       <Content />
       <Footer />
     </IntlProvider>

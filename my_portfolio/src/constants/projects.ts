@@ -19,27 +19,26 @@ const PROJECTS: IProject[] = [
       "Songbird is a quiz app for recognizing birds by their voices.",
     stack: ["JavaScript", "SCSS", "Webpack", "Responsive UI", "SPA"],
     git: "https://github.com/M0rl0ck/m0rl0ck-JSFE2022Q3/tree/songbird",
-    deploy:
-      "https://64895e1190bf8e64ae3305cd--celadon-fairy-bfaa56.netlify.app/",
+    deploy: "https://celadon-fairy-bfaa56.netlify.app/",
   },
-  {
-    image:
-      "https://user-images.githubusercontent.com/95146343/262322865-c1af5503-5b10-4e21-88f3-9f61a1f33b1e.jpg",
-    name: "Async Race",
-    description:
-      "Async Race is a educational project as part of the task for RS School.",
-    stack: [
-      "TypeScript",
-      "SCSS",
-      "Webpack",
-      "Responsive UI",
-      "SPA",
-      "Rest API",
-      "JS Animations",
-    ],
-    git: "https://github.com/M0rl0ck/m0rl0ck-JSFE2022Q3/blob/async-race/README.md",
-    deploy: "https://m0rl0ck.github.io/m0rl0ck-JSFE2022Q3/async-race/",
-  },
+  // {
+  //   image:
+  //     "https://user-images.githubusercontent.com/95146343/262322865-c1af5503-5b10-4e21-88f3-9f61a1f33b1e.jpg",
+  //   name: "Async Race",
+  //   description:
+  //     "Async Race is a educational project as part of the task for RS School.",
+  //   stack: [
+  //     "TypeScript",
+  //     "SCSS",
+  //     "Webpack",
+  //     "Responsive UI",
+  //     "SPA",
+  //     "Rest API",
+  //     "JS Animations",
+  //   ],
+  //   git: "https://github.com/M0rl0ck/m0rl0ck-JSFE2022Q3/blob/async-race/README.md",
+  //   deploy: "https://m0rl0ck.github.io/m0rl0ck-JSFE2022Q3/async-race/",
+  // },
   {
     image:
       "https://user-images.githubusercontent.com/95146343/243565434-c717bf39-87cc-4fea-831d-e63929a03330.png",
@@ -69,6 +68,21 @@ const PROJECTS: IProject[] = [
     stack: ["TypeScript", "CSS Modules", "Next.js", "Redux - RTK + RTK Query"],
     git: "https://github.com/M0rl0ck/graphiql-app",
     deploy: "https://graphiql-party-team.vercel.app/",
+  },
+  {
+    image:
+      "https://github.com/M0rl0ck/Test_task-Apartment/assets/95146343/0ad0d718-2049-4cbc-b882-25313cfba6c0",
+    name: "Asteroid Destroyer",
+    description: "This application is a test task for the 'Kvartirka' company.",
+    stack: [
+      "TypeScript",
+      "CSS Modules",
+      "Next.js",
+      "Responsive UI",
+      "Rest API",
+    ],
+    git: "https://github.com/M0rl0ck/Test_task-Apartment",
+    deploy: "https://test-task-apartment.vercel.app/",
   },
 ];
 
