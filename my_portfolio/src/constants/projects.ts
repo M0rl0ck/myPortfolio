@@ -71,8 +71,8 @@ const PROJECTS: IProject[] = [
   },
   {
     image:
-      "https://private-user-images.githubusercontent.com/95146343/309213125-0ad0d718-2049-4cbc-b882-25313cfba6c0.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkyOTcwNjYsIm5iZiI6MTcwOTI5Njc2NiwicGF0aCI6Ii85NTE0NjM0My8zMDkyMTMxMjUtMGFkMGQ3MTgtMjA0OS00Y2JjLWI4ODItMjUzMTNjZmJhNmMwLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzAxVDEyMzkyNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVjNGU3NjViOWI4OWJlYzc3N2ExOWE0NDk2MGQxOWJmZTBkYWY1MTQwZDQ2MGMwMDVhNzgyNWY1YzAwYzgyNWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.5JjakKIvSwfhVupXkpC0kzs8ZD4_sfduFiBGHz8KVa4",
-    name: "Async Race",
+      "https://github.com/M0rl0ck/Test_task-Apartment/assets/95146343/0ad0d718-2049-4cbc-b882-25313cfba6c0",
+    name: "Asteroid Destroyer",
     description: "This application is a test task for the 'Kvartirka' company.",
     stack: [
       "TypeScript",
